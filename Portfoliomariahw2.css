@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    padding: 0;
+    padding: 5px;
     margin: 0;
 }
 
@@ -29,15 +29,32 @@
     font-family: Courier New, Courier, monospace;
 }
 
-.main {
-    background-image: url("https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-color: #bdbdbd;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-bottom: 15px;
-    height: 200px;
-    width: 75%;
-
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
 
+.my {
+    float: left;
+    width: 50;
+    padding: 5px;
+  }
+
+.css {
+    float: left;
+    width: 50;
+    padding: 5px;
+  }
+
+.me {
+    display: inline-block;
+}
+
+body {
+    background-color: lightblue;
+  }
