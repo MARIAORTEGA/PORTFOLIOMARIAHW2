@@ -4,6 +4,33 @@
     margin: 0;
 }
 
+header {
+    padding: 40px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+
+  nav {
+    display: flex;
+    background-color: #d8a47f;
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  footer {
+    flex-shrink: 0;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+
 .begin h1 {
     color: #34495E;
     font-size: 60px;
@@ -58,3 +85,4 @@
 body {
     background-color: lightblue;
   }
+
