@@ -13,21 +13,21 @@ header {
 
   nav {
     display: flex;
-    background-color: #d8a47f;
+    background-color: #d0748b;
   }
   
   nav a {
     color: #13293d;
-    padding: 14px 20px;
+    padding: 14px 20px; 
     text-decoration: none;
     text-align: center;
   }
 
   footer {
-    flex-shrink: 0;
+    flex-shrink: 0; 
     padding: 20px;
     text-align: center;
-    background: #13293d;
+    background: #d0748b ;
     color: #fff;
   }
 
@@ -51,7 +51,7 @@ header {
 .begin div ul, li {
     display:inline-block;
     margin-left: 20px;
-    float: right;
+    float: right; 
     font-size: 25px;
     font-family: Courier New, Courier, monospace;
 }
@@ -66,23 +66,99 @@ header {
     z-index:999;
 }
 
-.my {
-    float: left;
-    width: 50;
-    padding: 5px;
-  }
 
-.css {
-    float: left;
-    width: 50;
-    padding: 5px;
-  }
-
-.me {
-    display: inline-block;
-}
 
 body {
-    background-color: lightblue;
+    background-color:#ebd2d1;
   }
+
+  .jumbotron {
+    background-color:#d0748b ;
+  }
+
+  .btn {
+    background-color: #946a81;
+    color:  #fff ;
+
+  }
+  
+
+  /*icon styling*/
+  .icons {
+    display: flex;
+    justify-content: center;
+    }  
+  .icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    }
+  .icons li a {
+    border-bottom: none;
+    }
+  .icons li img {
+    width:70px;
+    height:70px;
+    margin-right: 20px;
+  }
+
+  
+  /*carousel image sizing*/
+  .d-block, .w-100 {
+        overflow: hidden;
+        height: 50vh;
+        width: 50%;
+        object-fit: scale-down;
+      
+      }
+
+      /*adding captions to carousel images*/ 
+    .carousel-caption .d-none .d-md-block{
+        display:table-cell;
+        vertical-align: middle;
+        text-align:center;
+        position: fixed;
+      top: 84%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      z-index: 1;
+      display:table;
+      width:100%;
+      height:100%;
+
+    }
+    /*.carousel-caption h5 {
+      font-family:    Garamond;
+      font-size:      3em;
+      color: #8B0000;
+      font-weight: 900
+      }*/
+    
+/* card images css */
+      .cropped {
+        width: 150px; /* width of container */
+        height: 150px; /* height of container */
+        overflow: hidden;
+        border: 5px solid black;
+    }
+    
+    .cropped img {
+        margin: -10px 0px 0px -180px;
+    }
+      
+      /*text above cards */
+    .display-3 {
+      color: #C12957;
+    }
+
+      
+
+
+    @media (min-width: 600px) {
+      main {
+        flex-wrap: nowrap;
+      }
+    }
 

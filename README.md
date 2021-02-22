@@ -1,6 +1,6 @@
-# PORTFOLIOMARIAHW2
-added background photo and css styling 
-worked on responsive layout
+# My Portfolio by Maria Ortega
+
+
 
 Portfolio screenshots
 ![Screen Shot 2020-10-31 at 11 27 29 PM](https://user-images.githubusercontent.com/71056915/97794900-2608e300-1bd6-11eb-952b-e91748ad106c.png)
